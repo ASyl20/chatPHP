@@ -16,6 +16,11 @@
             <div class="form-area">
             <form action="" method="POST">
                 <div class="group">
+                    <h2 class="form-heading">
+                        Create a new account
+                    </h2>
+                </div>
+                <div class="group">
                     <input type="text" name="full_name" class="control" placeholder="Enter FUll name..." >       
                 </div>
                 <div class="group">
@@ -30,6 +35,9 @@
                 </div>
                 <div class="group">
                     <input type="submit" name="signup" class="btn signup-btn" value="Create account" >       
+                </div>
+                <div class="group">
+                    <a href="login.php" class="link"> Already have an account?</a>
                 </div>
             </form>
             </div>
